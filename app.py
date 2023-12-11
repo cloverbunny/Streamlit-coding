@@ -1,7 +1,7 @@
 import streamlit as st 
 #import openai
 
-from openai import OpenAI 
+#from openai import OpenAI 
 
 st.write('Hello world')
 
