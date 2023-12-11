@@ -1,9 +1,8 @@
 import streamlit as st 
 #import openai
-
 #from openai import OpenAI 
 
-st.write('Hello world')
+st.write('Welcome to a BMI calculator! ')
 
 def calculate_bmi(weight, height):
     bmi = (weight/height**2)*703
@@ -22,5 +21,10 @@ if st.button('Click here to calculate BMI'):
         st.write('You are underweight')
     elif bmi>18.5 & bmi<25:
         st.write('You are a normal weight')
+    else:
+        st.write('You are overweight')
+
+
+
 
 
