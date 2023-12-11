@@ -19,12 +19,17 @@ if st.button('Click here to calculate BMI'):
     st.write('The BMI is ', bmi)
     if bmi<18.5:
         st.write('You are underweight')
-    elif bmi>18.5 & bmi<25:
+    elif (bmi>18.5) and (bmi<25):
         st.write('You are a normal weight')
     else:
         st.write('You are overweight')
 
 
-
+st.write('''
+         BMI guidelines: \n  
+         If your BMI is less than 18.5, it falls within the underweight range. \n  
+         If your BMI is 18.5 to <25, it falls within the healthy weight range. \n  
+         If your BMI is 25.0 to <30, it falls within the overweight range. \n  
+         ''')
 
 
